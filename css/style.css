@@ -1,0 +1,88 @@
+/* importar google fonts */
+/* config */
+/* importar google fonts */
+/* Estilos de proyecto. */
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 991px) {
+  html {
+    font-size: 50%;
+  }
+}
+html::-webkit-scrollbar {
+  /* Grosor de scrollbar */
+  /* config */
+}
+html::-webkit-scrollbar-thumb {
+  /* Color de la barra deslizante */
+  /* config */
+}
+html::-webkit-scrollbar-track {
+  /* Color del fondo de la barra deslizante */
+  /* config */
+}
+* {
+  text-transform: capitalize;
+  transition: all 0.3s ease;
+  /* Fuente del proyecto */
+  /* config */
+}
+*::after,
+*::before,
+* {
+  box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+}
+body {
+  font-size: 1.6rem;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+ul, ol {
+  padding-left: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+input[type="submit"],
+button,
+a {
+  cursor: pointer;
+}
+img,
+h1,
+h2,
+h3,
+p {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+img{
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+/* Code here... */
